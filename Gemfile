@@ -16,7 +16,7 @@ gem "activerecord", "~> 7.2.0"
 gem "activesupport", "~> 7.2.0"
 gem "railties", "~> 7.2.0"
 
-gem "propshaft"
+gem "propshaft", ">= 1.2.0"
 
 gem "json"
 
