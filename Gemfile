@@ -122,7 +122,7 @@ group :test do
   gem "test-prof"
   gem "rails-dom-testing", require: false
   gem "minio_runner", require: false
-  gem "capybara-playwright-driver"
+  gem "capybara-playwright-driver", ">= 0.5.7"
 end
 
 group :test, :development do
