@@ -116,7 +116,7 @@ gem "digest", require: false
 
 group :test do
   gem "capybara", require: false
-  gem "webmock", require: false
+  gem "webmock", ">= 3.25.2", require: false
   gem "fakeweb", require: false
   gem "simplecov", require: false
   gem "test-prof"
