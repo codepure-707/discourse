@@ -143,7 +143,7 @@ group :test, :development do
   gem "rubocop-discourse", require: false
   gem "parallel_tests"
 
-  gem "rswag-specs"
+  gem "rswag-specs", ">= 2.17.0"
 
   gem "annotate"
 
