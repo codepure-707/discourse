@@ -51,7 +51,7 @@ gem "http_accept_language", require: false
 gem "discourse-fonts", require: "discourse_fonts"
 gem "discourse-emojis", require: "discourse_emojis"
 
-gem "message_bus"
+gem "message_bus", ">= 4.5.0"
 
 gem "rails_multisite"
 
@@ -72,13 +72,13 @@ gem "loofah"
 gem "css_parser", require: false
 
 gem "omniauth"
-gem "omniauth-facebook"
+gem "omniauth-facebook", ">= 10.0.0"
 gem "omniauth-twitter"
-gem "omniauth-github"
+gem "omniauth-github", ">= 2.0.1"
 
-gem "omniauth-oauth2", require: false
+gem "omniauth-oauth2", ">= 1.8.0", require: false
 
-gem "omniauth-google-oauth2"
+gem "omniauth-google-oauth2", ">= 1.1.0"
 
 gem "oj"
 
@@ -246,8 +246,8 @@ gem "maxminddb"
 
 gem "rails_failover", require: false
 
-gem "faraday"
-gem "faraday-retry"
+gem "faraday", ">= 2.14.1"
+gem "faraday-retry", ">= 2.3.2"
 
 # workaround for faraday-net_http, see
 # https://github.com/ruby/net-imap/issues/16#issuecomment-803086765
